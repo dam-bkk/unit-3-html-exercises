@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table of Fruits</title>
+    <link rel="stylesheet" href="fruits.css" />
+  </head>
+  <body>
+    <table align="center" >
+      <tr>
+        <td>
+          <h3>Menu a burger!</h1>
+        </td>
+      </tr>
+      <table border="1" align="center" ;>
+        <tr>
+          <th>Images</th>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>
+            <img padding="10px" src="assets/images/b1.webp" alt="Double Burger" />
+          </td>
+          <td>Double Burger</td>
+          <td>8.5 USD</td>
+        </tr>
+        <tr>
+          <td>
+            <img padding="10px" src="assets/images/b2.webp" alt="Classic Burger" />
+          </td>
+          <td>Classic Burger</td>
+          <td>7.5 USD</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+            padding="10px"
+              src="assets/images/b3.webp"
+              alt="Bacon Burger"
+            />
+          </td>
+          <td>Bacon Burger</td>
+          <td>8 USD</td>
+        </tr>
+      </table>
+    </table>
+    <hr/>
+
+    <form>
+        <h3>Create a burger!</h3>
+<label for="protein">What type of protein would you like?</label>
+        <input
+          type="text"
+          id="protein"
+          name="protein"
+        />
+    <hr/>
+    <label for="pattie">How many patties would you like?</label>
+    <input
+      type="text"
+      id="patties"
+      name="patties"
+    />
+    <hr/>
+    <p>How do you want your pattie cooked?</p>
+    <label for="volume">Rare</label>
+    <input type="range" id="" name="volume"
+    min="Rare" max="Well Done">
+<label for="volume">Well Done</label>
+    <hr/>
+    <label for="">What toppings would you like?</label><br />
+    <label for="t1"> Lettuce</label>
+    <input type="checkbox" id="t1" name="t1" />
+    <label for="t2"> Tomatoe</label>
+    <input type="checkbox" id="t2" name="t2" />
+    <label for="t3">Onion</label>
+    <input type="checkbox" id="t3" name="t3" /><br />
+    <hr/>
+    <label for="">Would you like to add cheese</label><br />
+    <input type="radio" name="yes" />
+    <label for="yes">Yes</label>
+    <input type="radio" name="no" />
+    <label for="no">No</label><br />
+    <hr/>
+    <label for="buns">What type of bun would you like</label><br />
+    <select name="buns" id="buns">
+      <option value="sesame">Sesame</option>
+      <option value="wheat">Wheat</option>
+      <option value="cheese">Cheese</option></select
+    ><br />
+    <hr/>
+    <label for="sauce">What type of sauce would you like?</label>
+    <input
+      type="text"
+      id="sauce"
+      name="sauce"
+    />
+    <hr/>
+    <label for="sauce">Anything else you would like to add?</label><br/>
+    <input
+      type="text"
+      id="sauce"
+      name="sauce"
+    />
+<hr/>
+    <input type="submit" value="Complete reservation" />
+</form>
+  </body>
+</html>
